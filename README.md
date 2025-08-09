@@ -103,7 +103,10 @@
 3. 院會表決：委員會通過後送院會討論、辯論，然後進行表決。<br>
 4. 兩院協調：兩院版本不同時，設立協調委員會調和內容。<br>
 5. 總統簽署：協調後法案送總統簽署成為法律，若總統否決，國會可用三分之二多數推翻否決。</p>
-
+<figure style="max-width: 100%; margin: 1rem 0; text-align: center; color: #8F9090; font-size: clamp(0.9rem, 1.5vw, 1rem);">
+<img src="https://i.postimg.cc/D0TdXFvW/temp-Image-LI6-BQr.avif" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+  <figcaption> 美國國會立法過程，來源：By Mike Wirth and Dr. Suzanne Cooper-Guasco。</figcaption>
+</figure>
 </body>
 </html>
 
