@@ -234,11 +234,18 @@
 
         <h2>第二階段立法過程：參眾議院討論及表決</h2>
         <h3>2025/05/20、提案（Introduced）</h3>
+        <figure style="max-width: 100%; margin: 1rem 0; text-align: center; color: #8F9090; font-size: clamp(0.9rem, 1.5vw, 1rem);">
+<img src="https://lab-storytelling-storage.twreporter.org/images/2cfaae39-65fc-4677-adc3-b89961c3e4bb.webp" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+  <figcaption> 2025年5月22日，眾議院議長強森在國會大廈通宵會議後談論總統川普的減稅大而美法案。</figcaption>
+</figure>
         <p>這項法案（H.R. 1 One Big Beautiful Bill Act）由德州眾議員 Jodey C. Arrington在眾議院首次提出，並送交<span class="interactive-text" onclick="toggleDescription(this, 'desc-budget-committee')">預算委員會</span>審查。該法案被列入聯合議事曆（Union Calendar），編號為第78號。眾議院預算委員會還提交了一份原始文件，即《眾議院報告119-106》（H. Rept. 119-106），由Jodey Arrington提出。</p>
-        <img src="https://lab-storytelling-storage.twreporter.org/images/2cfaae39-65fc-4677-adc3-b89961c3e4bb.webp" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+        <figure style="max-width: 100%; margin: 1rem 0; text-align: center; color: #8F9090; font-size: clamp(0.9rem, 1.5vw, 1rem);">
+<img src="https://lab-storytelling-storage.twreporter.org/images/36c1250e-a1f3-4312-8b83-960590ab9f43.jpg" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+  <figcaption> 2025年5月22日，眾議院議長強森在國會大廈通宵會議後談論總統川普的減稅大而美法案。</figcaption>
+</figure>
         <h3>2025/05/23、眾議院表決（Initial Passage in House）</h3>
         <p>眾議院規則委員會在2025年5月21日提交了《眾議院第436號決議》（H. Res. 436），該決議規定H.R. 1在封閉規則下進行審議，包含兩小時的總辯論和一項發回委員會動議。之後，《H. Res. 436》於2025年5月22日凌晨2:39在眾議院通過。眾議院依據《H. Res. 436》的規定進行了對H.R. 1的兩小時辯論。過程中，反對方提出「重返委員會」（motion to recommit）的動議（Mrs. Trahan提出），但以212票贊成、216票反對的記名投票結果未獲通過。法案最終以215票贊成、214票反對，1票出席的記名投票結果在眾議院獲得通過。此後，眾議院通過的法案於2025年6月27日送交參議院，並於次日，即2025年6月28日，參議院以51票贊成、49票反對的票數，同意對該法案進行審議。H.Res.436是一個由美國眾議院規則委員會提出的決議案，其核心目的是設定眾議院審議 H.R.1號法案的特殊程序規則。核心目的與內容：這個決議案旨在為H.R.1號法案在眾議院的辯論和表決鋪平道路，確保其能高效、快速且不受阻礙地通過。1.豁免程序性反對：允許在審議 H.R.1時，所有可能基於程序規則提出的反對意見（points of order）都被豁免，以加快進程。2.預設修正案：規定眾議院規則委員會預先準備好的替代性修正案將被視為已經通過，意味著議員們將直接審議這個修改後的版本。3.限制其他動議：禁止在最終表決前提出任何其他中間動議（例如「重返委員會」動議），這是多數黨用來確保法案迅速通過的關鍵策略，限制了少數黨的阻撓手段。在美國國會，「重返委員會」是一個關鍵的立法動議，它允許議員在法案最終表決前，將法案送回原來的委員會重新審議。這個動議的目的是給予國會議員最後一次機會，在法案進入最終表決之前對其進行修改或阻撓。其主要目的為，修改法案：最常見的用途。動議者可以提出具體指示，要求委員會對法案進行特定修改；拖延程序：作為一種策略，有時被用來拖延法案表決；表達異議：即使不成功，也是表達對法案某方面不滿的方式。</p>
-        <img src="https://lab-storytelling-storage.twreporter.org/images/36c1250e-a1f3-4312-8b83-960590ab9f43.jpg" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+        
         <h3>2025/07/01、參議院審議與修正（Passed Senate with Amendments）</h3>
         <p>參議院以51票贊成、50票反對的票數通過了該法案並提出了修正案（Senate Amendment SA 2360），其中<span class="interactive-text" onclick="toggleDescription(this, 'desc-vance')">副總統萬斯的一票</span>投下了關鍵的決勝票。在此過程中，參議院對多項修正案進行了表決：SA 2360修正案（參議員圖恩為參議員格雷厄姆提出的替代修正案）以51票贊成、50票反對獲得通過。SA 2848修正案（參議員格雷厄姆提出以改進法案的修正案）以51票贊成、50票反對獲得通過，但參議員舒默提出的預算點名異議被主席支持，導致SA 2848的部分條文被刪除。SA 2814修正案（參議員布萊克本提出，旨在取消人工智慧支援相關條款）以99票贊成、1票反對的壓倒性票數獲得通過（Record Vote Number: 363）。SA 2790修正案（參議員甘迺迪提出，旨在提前資格驗證要求的生效日期）以<span class="interactive-text" onclick="toggleDescription(this, 'desc-voice-vote')">語音投票</span>方式獲得通過。 此外，許多其他修正案未能通過，有些以微弱劣勢被否決，有些則因違反預算規定而被主席裁定為無效。參議院行動後，參議院將修正後的法案訊息發送給眾議院。</p>
         <div id="desc-voice-vote" class="description-box">
