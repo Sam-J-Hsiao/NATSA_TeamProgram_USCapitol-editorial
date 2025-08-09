@@ -260,8 +260,10 @@
 
         <h3>2025/07/04、總統簽署成法 （Became Law）</h3>
         <p>在前一天晚些時候，該法案通過並被呈交給總統川普。於是在隔天7/4，也就是國慶日當天，川普正式在白宮簽署了大而美法案，使之成為正式法律，編號：Public Law 119-21</p>
-<img src="https://lab-storytelling-storage.twreporter.org/images/4b0efa3c-2c78-49e7-8bf0-62c461702130.jpg" alt="圖片描述" style="max-width: 100%; height: auto;" />
-        <div class="divider"></div>
+<figure style="max-width: 100%; margin: 1rem 0; text-align: center; color: #8F9090; font-size: clamp(0.9rem, 1.5vw, 1rem);">
+<img src="https://lab-storytelling-storage.twreporter.org/images/4b0efa3c-2c78-49e7-8bf0-62c461702130.jpg" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+  <figcaption> 2025年7月4日，總統川普在白宮與議長強森及其他官員一起簽署。</figcaption>
+</figure>
         
         <h1>大而美法案目標</h1>
         <p>該法案可謂是川普總統第二任期議程的核心。雖然有著廣大的爭議，但力挺法案的人宣稱其將為美國人民帶來「更多的醫療保健選擇、更低的成本和更大的靈活性」 。同時強調法案旨在保護和加強醫療補助計畫（Medicaid）以服務弱勢群體，同時消除浪費、欺詐和濫用。除此之外，該法案還著重關注收支問題，希望能夠減少不低於兩兆美元的支出。不過，該法案仍有新增加的支出，用以專門保護美國國土安全和維護主權，這些支出將通過增加國外人士簽證費用來支應。</p>
