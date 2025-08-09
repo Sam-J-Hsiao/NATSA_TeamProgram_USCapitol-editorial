@@ -93,7 +93,10 @@
 
 <h4>席次變化歷史</h4>
 <p>眾議院席次從最初的65席逐漸增加，隨著人口成長與新州加入而調整。1911年後，為了維持穩定，眾議院席次固定為435席。每10年一次的美國人口普查後，依人口變動重新劃分各州席次（卻可能導致選區按特定政黨傾向分配——謂之傑利蠑螈）。</p>
-
+<figure style="max-width: 100%; margin: 1rem 0; text-align: center; color: #8F9090; font-size: clamp(0.9rem, 1.5vw, 1rem);">
+<img src="https://i.postimg.cc/9M4yS0Mw/temp-Imageg2s-We-T.avif" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+  <figcaption> 1812年，當時的州長傑利利用規劃選區的權力企圖讓自己的得票率最大化，來源：Has Gerrymandering Made it Impossible for Democrats to Win the House？</figcaption>
+</figure>
 <h4>立法流程簡介</h4>
 <p>1. 提出法案：任何一院議員均可提出法案，經委員會審議。<br>
 2. 委員會審查：法案先送交相關委員會，討論、修改，甚至擱置。<br>
@@ -279,6 +282,10 @@
         <p>該法案新增了1500億美元用於邊境執法和驅逐出境。該法案資助僱用10,000名新的移民和海關執法局(ICE，也就是六月底在洛杉磯引起移民抗議的機關)官員；並資助阻止防範芬太尼流入的計畫；此外，它還包括繼續建設與完善邊境圍牆的計畫。相關條文的通過，按照白宮的說法為「確保國土安全」和「維護美國主權」，但具體而言是否能夠實現目標，仍有待後續發展驗證。</p>
         <p>同一時間，法案還系統性地取消或限制了各類非公民（包括合法在美的人道主義入境者、假釋者和持有臨時保護身份者）獲得主要聯邦安全網計畫（如醫療補助計畫、SNAP、ACA市場和醫療保險計畫）的資格。不僅僅針對「非法外國人」，還包括合法在美的人道主義入境者。後果除了影響已經在國內的移民外，更可能導致州政府被迫在眉有中央支持的情況下獨自完成有關難民的所有處置。</p>
         <p>川普政府於本次推出的大而美法案牽涉的範圍廣泛到往往是立法者也未能明確掌握每一條法條在討論的事情；而政府宣稱不會影響的支出卻往往受到許多團體的懷疑；川普政府雖然宣稱要減少政府開支，但同時債務上限卻也同等提高。</p>
+        <figure style="max-width: 100%; margin: 1rem 0; text-align: center; color: #8F9090; font-size: clamp(0.9rem, 1.5vw, 1rem);">
+<img src="https://i.postimg.cc/DzSWfDKt/temp-Imagev4-Oar-X.avif" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+  <figcaption> 根據EPOC的估計法案會使赤字在十年間增加約2.4兆美元，來源：Fiscal Effects Of The One Big Beautiful Bill。</figcaption>
+</figure>
         <p>而且無論如何，這部法案的通過對早已深陷對立情緒的美國來說指只是火上澆油。從提案、討論、表決到影響範圍，每一個程序與步驟都有許多批評的聲音。</p>
     </main>
 
