@@ -1,69 +1,306 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>美國國會介紹</title>
+<style>
+  body {
+    background-color: #DEDCDA;
+    font-family: Arial, sans-serif;
+    color: #8F9090;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+  }
+
+  /* 大標題 */
+  h1 {
+    color: #313B4D;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 0.5em;
+  }
+
+  /* 標題 */
+  h2 {
+    color: #293342;
+    font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 副標題 */
+  h3 {
+    color: #293342;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+  }
+
+  /* 小標題 */
+  h4 {
+    color: #293342;
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+  }
+
+  /* 內文 */
+  p {
+    font-size: clamp(1rem, 2.2vw, 1.2rem);
+    margin-bottom: 1em;
+  }
+
+  /* 連結與引用 */
+  a, blockquote {
+    color: #C7955A;
+  }
+
+  /* 分隔線 */
+  .divider {
+    border-top: 4px solid #8F9090;
+    margin: 2em 0;
+  }
+</style>
+</head>
+<body>
+
+<h2>序言</h2>
+<p>2024年，台灣與美國都各自進行總統大選，而選後的結果也帶來震盪至今的餘波。在台灣，獲得執政權的民進黨並未能在立法院成為最大黨或單獨過半，必須與在野的國、眾兩黨合作以推進法案，從而，三黨之間的分歧與攻訐都因為沒有人獨大而加劇；在美國，川普贏得選舉，共和黨也贏下參眾兩院，川普以及他的盟友得以從行政與立法兩頭共頭推進他們的政治議程。</p>
+<p>到截稿的目前，川普政府已開啟第二波的關稅談判，寄望以關稅作為達成自己目標——無論政治或經濟層面——的武器；同時，他們也著手刪減國會支出，嘗試達成選前減少開支的承諾。</p>
+<p>台灣與美國在政治制度上固然有許多類似的地方，可卻同時也有相當多的差異。雖然關注美國的事物不能直接為我們帶來幫助，但是透過比較他國經驗，也是能夠對解決國內問題帶來些許參考。必須要理解的是，行政權與立法權本質上是相互獨立卻互相依賴的責任，像是川普在本次推動的全球徵稅的法源依據便是將近50年前通過的《1977 年國際緊急經濟權力法》（International Emergency Economic Powers Act）。該法案授權總統在國家面對國外威脅時得採取相對應手段，且賦予總統更多的主動權。所以理解一國權力運作體系萬不可只從行政或立法層面進入，而是需要建構出多元的視角。</p>
+<p>本篇報導，關注的焦點僅只侷限於國會中的運作以及粗略的背景介紹，我們將選擇7/4通過的大而美法案作為研究對象，探討立法的制度是如何被使用的，也同時研究立法的架構如何從過去影響到現在。</p>
+
+<div class="divider"></div>
+
+<h2>國會的起源</h2>
+<p>現在的美國國會已經是美國極為重要的象徵之一，其獨特的參眾兩院制度規劃業已成為其獨特的印記。即使現在習以為常，但這些制度的出現都絕非偶然，關於國會的每一項規定，再不同時間所進行的改革都能夠恰如其分地反映出時代的特色。透過他們的行動，我們可以了解他們想解決什麼問題，如何解決，以及產生的結果又是什麼？</p>
+<p>要了解國會現在的意義，要了解參眾議員們的行為，要了解美國政府的運作，都無疑要直面定義它們的法律，而構建出對法律的全面了解，也無疑需要回到一切的起點。回到制憲會議的當下，看看當年的國父們怎麼想像未來的社會。</p>
+<p>在1787年制憲以前，合眾國對於國家事務中央統籌機構是<a href="https://zh.wikipedia.org/zh-tw/邦聯議會_(美國)">邦聯議會</a>所主導，該機構雖擁有行政與立法權，但礙於<a href="https://zh.wikipedia.org/zh-tw/邦联条例">《邦聯條款》</a>的掣肘，中央政府往往是有責無權，無論軍事、外交、財稅等重要議題往往無法扮演主導地位。而1786年的謝斯叛亂，更讓中央政府失能的後果為所有人所知。許多原先反對聯邦的國家也逐漸傾向制定一套更強而有力的制度；約翰・傑伊（巴黎條約簽署者；美國開國元勳）也認為這場叛亂「深刻地凸顯聯邦政府的低效」。</p>
+<p>原先在制憲立場上分立的各州代表們遂開始討論制憲，但當時的時空環境並不允許他們公開宣言要打造一套新的憲法，於是他們只能以相對低調的態度進行。經過了無數的討論，終於在1787年的9月17日完成起草，後又經過兩年的時間交付各州批准。</p>
+<p>在美國憲法中，第一條共十項逾五十款詳細的規定了從議會架構、代表來源與選任、議事流程、議會權責等規範。其中包含了收稅、宣戰、鑄幣（都是邦聯條例中不足的權力）等權。更明定參眾兩院的細微差異與流程。</p>
+<p>這就是我們所熟悉的美國國會建立的過程，不過，美國國會在討論初期所遭遇到的問題遠比前面的描述還要更多。因為當年十三個州對於一個統一的中央政府有著許許多多不同的視角。有的州希望州全都一點，有的則希望建立一個強有力的中央政府。除此之外，當年的美國仍是奴隸制度社會，於是在財產與人口統計的問題上，奴隸制就也被牽連進來。</p>
+<p>當時，制憲者們主要依據各州人口（包含奴隸）而有兩派之分，大洲以維吉尼亞州領銜，提出設立兩院制度（但兩院代表皆以人口比例分配）；而小州則以紐澤西州代表提出另一套方案，提案創設一院制度（且每州固定兩人）。兩項方案雖然看似是對於人口發展上的顧慮，但同時也人口大洲往往也是奴隸最多的，於是他們無疑會想讓奴隸也成為人口比例分配中的人口。但小州則不樂見這樣的發展，否則政治權利可能會過度傾斜大州。在中途提出的紐澤西方案被否決後，康乃狄克州的代表羅傑・謝爾曼提出了一套兼而有之的妥協方案：創設兩院制度，一院代表以人口比例計算，一院代表每州各兩名。</p>
+<p>而針對眾議院的人口計算，在無數的討論後產生的定案是：每一個奴隸等同於3/5個自由人（which shall be determined by adding to the whole number of free persons…three fifths of all other Persons.）。修正後的提案獲得支持並通過成為正式的憲法，後世稱之為——<a href="https://zh.wikipedia.org/zh-tw/康涅狄格妥协">偉大的妥協</a>。</p>
+
+<h4>國會兩院制度</h4>
+<p>參議院：每州均有兩名參議員，無論該州人口多少，參議院總席次固定為100席（50州）。參議員任期6年，三分之一每兩年改選一次。</p>
+<p>眾議院：根據各州人口比例分配席次，總席次固定為435席（自1911年起確定），任期兩年，全部席次每兩年改選一次。（如此一來可以在中期反應政府施政滿意度）</p>
+
+<h4>席次變化歷史</h4>
+<p>眾議院席次從最初的65席逐漸增加，隨著人口成長與新州加入而調整。1911年後，為了維持穩定，眾議院席次固定為435席。每10年一次的美國人口普查後，依人口變動重新劃分各州席次（卻可能導致選區按特定政黨傾向分配——謂之傑利蠑螈）。</p>
+
+<h4>立法流程簡介</h4>
+<p>1. 提出法案：任何一院議員均可提出法案，經委員會審議。<br>
+2. 委員會審查：法案先送交相關委員會，討論、修改，甚至擱置。<br>
+3. 院會表決：委員會通過後送院會討論、辯論，然後進行表決。<br>
+4. 兩院協調：兩院版本不同時，設立協調委員會調和內容。<br>
+5. 總統簽署：協調後法案送總統簽署成為法律，若總統否決，國會可用三分之二多數推翻否決。</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>互動式內容展示</title>
+    <title>美國國會介紹</title>
     <style>
         body {
+            background-color: #DEDCDA;
             font-family: Arial, sans-serif;
-            line-height: 1.6;
+            color: #8F9090;
+            margin: 0;
             padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
+            line-height: 1.6;
+            box-sizing: border-box;
         }
 
-        .highlight-text {
-            color: #007BFF;
+        /* 大標題 */
+        h1 {
+            color: #313B4D;
+            font-size: clamp(2rem, 4vw, 3rem);
+            margin-bottom: 0.5em;
+        }
+
+        /* 標題 */
+        h2 {
+            color: #293342;
+            font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        /* 副標題 */
+        h3 {
+            color: #293342;
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            margin-top: 1.2em;
+            margin-bottom: 0.5em;
+        }
+
+        /* 小標題 */
+        h4 {
+            color: #293342;
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
+            margin-top: 1em;
+            margin-bottom: 0.3em;
+        }
+
+        /* 內文 */
+        p {
+            font-size: clamp(1rem, 2.2vw, 1.2rem);
+            margin-bottom: 1em;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* 連結與引用 */
+        a, blockquote {
+            color: #C7955A;
+        }
+
+        /* 分隔線 */
+        .divider {
+            border-top: 4px solid #8F9090;
+            margin: 2em 0;
+        }
+
+        /* -------------------------------------- */
+        /* 以下是互動式文字的樣式 */
+        .interactive-text {
+            color: #C7955A;
             text-decoration: underline;
             cursor: pointer;
+            position: relative;
             font-weight: bold;
         }
 
-        .description-container {
-            border: 1px solid #ccc;
+        .description-box {
+            display: none;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 0px solid transparent; /* 確保沒有邊框 */
             border-radius: 10px;
-            padding: 15px;
+            padding: 20px;
             margin-top: 10px;
-            background-color: #f8f9fa;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+            box-sizing: border-box;
+            line-height: 1.6;
+            color: #293342;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
-
-        .description-container.active {
-            max-height: 200px; /* 根據內容調整此值 */
-            padding: 15px;
-        }
-
-        .description-text {
-            color: #333;
-            font-size: 14px;
+        
+        .description-box p {
+            margin: 0;
+            padding: 0;
+            max-width: none;
         }
     </style>
 </head>
 <body>
 
-    <p>
-        現在共和黨在參議院握有53票（事實上包含<span id="highlighted-topic" class="highlight-text">副總統萬斯的一票</span>），眾議院握有219票。雖然單獨過半，但因為普通的立法程序在參議院需要60票同意，考量到現實兩黨對立，故而共和黨人啟動程序，預先設立預算決議案（budget resolution）。而通過此決議案無論在參眾兩院皆只需要過半數同意。因此在今年的2/25日決議案以217-215通過眾議院版本，一個半月後4/5則以51-48通過參議院版本，最後在4/10號兩院通過版本達成一致。
-    </p>
+    <main>
+        <h1>第一階段立法過程：預算調和機制</h1>
+        <p>One Big Beautiful Bill Act（OBBBA），中譯簡稱大而美法案。其正式名稱為「為符合眾議院第14號決議第二章之和解提供規定之法案」，在第119屆美國國會通過並由美國總統川普於2025年7月4日簽署生效。</p>
+        <p><a href="https://www.congress.gov/119/bills/hr1/BILLS-119hr1enr.pdf" target="_blank">大而美法案</a>所牽涉的範圍極廣，在870頁的條款中包含經濟、醫療保健、社會福利、移民與邊境安全以及國家安全與國防等領域的聯邦政策。同時法案也是延續了川普在2017年所提出的減稅法案（2017年減稅與就業法案）。</p>
+        <p>為安全通過大而美法案，共和黨人運用<span class="interactive-text" onclick="toggleDescription(this, 'desc-reconciliation')">預算調和程序</span>，將來自十個參議院委員會的政策優先事項整合到一個單一、全面的立法框架中 。以保障在兩黨極度對立的情況下能夠順利通過，但同時這樣的法案設定也意味著此一被形容為具有「非凡的廣度和雄心」的法案會在未經兩黨討論協商的情況下通過。而這也是隨後表決階段雙發拉鋸以及通過後全美都有反對聲浪的主要原因之一。</p>
+        <div id="desc-reconciliation" class="description-box">
+            <p>在參議院，大多數法案要通過「終止辯論動議（cloture motion）」才能進入表決階段，這需要 60 票，用來防止少數黨用「冗長辯論（filibuster）」拖延。</p>
+            <p>但預算調和法案是在1974年依《國會預算法》創設的特殊程序，故而有辯論時間限制（20小時），簡單多數（51票）即可通過，但同時也限制內容需和支出、收入或債務上限直接相關。</p>
+        </div>
+        <p>大而美法案正式的名稱會是「為符合眾議院第14號決議第二章之和解提供規定之法案」，之所以會有如此複雜的名稱，主要的原因是共和黨為了通過這樣的法案，運用了大量的立法程序作為工具。</p>
+        <p>現在共和黨在參議院握有53票（事實上包含副總統萬斯的一票），眾議院握有219票。雖然單獨過半，但因為普通的立法程序在參議院需要60票同意，考量到現實兩黨對立，故而共和黨人啟動程序，預先設立預算決議案（budget resolution）。而通過此決議案無論在參眾兩院皆只需要過半數同意。因此在今年的2/25日決議案以217-215通過眾議院版本，一個半月後4/5則以51-48通過參議院版本，最後在4/10號兩院通過版本達成一致。</p>
+        <p>在參議院，大多數法案要通過「終止辯論動議（cloture motion）」才能進入表決階段，這需要 60 票，用來防止少數黨用「冗長辯論（filibuster）」拖延。但預算調和法案是在1974年依《國會預算法》創設的特殊程序，故而有辯論時間限制（20小時），簡單多數（51票）即可通過，但同時也限制內容需和支出、收入或債務上限直接相關。在調和法案通過後，參眾兩院的各<span class="interactive-text" onclick="toggleDescription(this, 'desc-committee')">常設委員會</span>就必須依照決議案（<a href="https://www.congress.gov/119/bills/hconres14/BILLS-119hconres14enr.pdf" target="_blank">H.Con.Res. 14</a>）內所提供的指示進行對應行動，例如國土安全委員會便須依照決議處理邊境安全、移民執法條款；軍事委員會則必須處理軍事支出與國防政策。而各委員會所提供的報告將會在設定的期限（2025/3/27）內送至眾議院<span class="interactive-text" onclick="toggleDescription(this, 'desc-budget-committee')">預算委員會</span>。在預算委員會，所有的報告將會被匯集成一個法案，也就是所謂的H.R.1（One Big Beautiful Bill Act）。通過這樣的程序，不僅是法案通過不需在參議院超過超過60票，更重要的是H.R.1不能被拆分表決，一次的表決就會通過全部的條款。</p>
+        <div id="desc-committee" class="description-box">
+            <p>眾議院常設有20個委員會，參議院常設有16個委員會，另有特別委員會與臨時委員會等。</p>
+        </div>
+        <div id="desc-budget-committee" class="description-box">
+            <p>在美國國會，預算委員會是眾議院和參議院各自設立的常設委員會，主要負責制定聯邦政府的年度財政框架。</p>
+            <p>核心職責：<br>
+                1.制定預算決議：這是其核心職責。每年，委員會會起草並通過一份預算決議，這是一份國會內部協議，為接下來的財政年度設定總體的支出上限、收入目標，並將總支出分配到各個功能領域（如國防、教育等）。這份決議本身不是法律，但為後續的撥款和稅收立法提供指導。<br>
+                2.協調與監督：協調其他委員會的立法活動，確保其符合總體預算目標，並監控預算執行情況。<br>
+                3.發出和解指令：在預算決議中，委員會可以發出「和解指令」，指示特定委員會修改現有法律（如稅法或強制性支出項目），以達成預算目標，這常被用於快速推進重大財政立法。</p>
+            <p>預算委員會在國會中至關重要，它們設定了聯邦政府財政政策的宏觀框架，直接影響政府的支出優先順序和稅收政策。它們的工作體現了國會對國家財政的制衡權力。</p>
+        </div>
+        <div id="desc-vance" class="description-box">
+            <p>美國憲法規定副總統為參議院議長，但其職權有所限制，不能參與辯論或提出議案，只能在同意與不同意票平票時投下「關鍵性的一票」。歷史上最多次使用此一職責的為第49任副總統賀錦麗，在其任內一共使用了33次，主要原因為兩黨人數差距過小。</p>
+        </div>
 
-    <div id="description-box" class="description-container">
-        <p class="description-text">
-            美國憲法規定副總統為參議院議長，但其職權有所限制，不能參與辯論或提出議案，只能在同意與不同意票平票時投下「關鍵性的一票」。歷史上最多次使用此一職責的為第49任副總統賀錦麗，在其任內一共使用了33次，主要原因為兩黨人數差距過小。
-        </p>
-    </div>
+        <div class="divider"></div>
+
+        <h2>第二階段立法過程：參眾議院討論及表決</h2>
+        <h3>2025/05/20、提案（Introduced）</h3>
+        <p>這項法案（H.R. 1 One Big Beautiful Bill Act）由德州眾議員 Jodey C. Arrington在眾議院首次提出，並送交<span class="interactive-text" onclick="toggleDescription(this, 'desc-budget-committee')">預算委員會</span>審查。該法案被列入聯合議事曆（Union Calendar），編號為第78號。眾議院預算委員會還提交了一份原始文件，即《眾議院報告119-106》（H. Rept. 119-106），由Jodey Arrington提出。</p>
+        <img src="https://lab-storytelling-storage.twreporter.org/images/2cfaae39-65fc-4677-adc3-b89961c3e4bb.webp" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+        <h3>2025/05/23、眾議院表決（Initial Passage in House）</h3>
+        <p>眾議院規則委員會在2025年5月21日提交了《眾議院第436號決議》（H. Res. 436），該決議規定H.R. 1在封閉規則下進行審議，包含兩小時的總辯論和一項發回委員會動議。之後，《H. Res. 436》於2025年5月22日凌晨2:39在眾議院通過。眾議院依據《H. Res. 436》的規定進行了對H.R. 1的兩小時辯論。過程中，反對方提出「重返委員會」（motion to recommit）的動議（Mrs. Trahan提出），但以212票贊成、216票反對的記名投票結果未獲通過。法案最終以215票贊成、214票反對，1票出席的記名投票結果在眾議院獲得通過。此後，眾議院通過的法案於2025年6月27日送交參議院，並於次日，即2025年6月28日，參議院以51票贊成、49票反對的票數，同意對該法案進行審議。H.Res.436是一個由美國眾議院規則委員會提出的決議案，其核心目的是設定眾議院審議 H.R.1號法案的特殊程序規則。核心目的與內容：這個決議案旨在為H.R.1號法案在眾議院的辯論和表決鋪平道路，確保其能高效、快速且不受阻礙地通過。1.豁免程序性反對：允許在審議 H.R.1時，所有可能基於程序規則提出的反對意見（points of order）都被豁免，以加快進程。2.預設修正案：規定眾議院規則委員會預先準備好的替代性修正案將被視為已經通過，意味著議員們將直接審議這個修改後的版本。3.限制其他動議：禁止在最終表決前提出任何其他中間動議（例如「重返委員會」動議），這是多數黨用來確保法案迅速通過的關鍵策略，限制了少數黨的阻撓手段。在美國國會，「重返委員會」是一個關鍵的立法動議，它允許議員在法案最終表決前，將法案送回原來的委員會重新審議。這個動議的目的是給予國會議員最後一次機會，在法案進入最終表決之前對其進行修改或阻撓。其主要目的為，修改法案：最常見的用途。動議者可以提出具體指示，要求委員會對法案進行特定修改；拖延程序：作為一種策略，有時被用來拖延法案表決；表達異議：即使不成功，也是表達對法案某方面不滿的方式。</p>
+        <img src="https://lab-storytelling-storage.twreporter.org/images/36c1250e-a1f3-4312-8b83-960590ab9f43.jpg" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+        <h3>2025/07/01、參議院審議與修正（Passed Senate with Amendments）</h3>
+        <p>參議院以51票贊成、50票反對的票數通過了該法案並提出了修正案（Senate Amendment SA 2360），其中<span class="interactive-text" onclick="toggleDescription(this, 'desc-vance')">副總統萬斯的一票</span>投下了關鍵的決勝票。在此過程中，參議院對多項修正案進行了表決：SA 2360修正案（參議員圖恩為參議員格雷厄姆提出的替代修正案）以51票贊成、50票反對獲得通過。SA 2848修正案（參議員格雷厄姆提出以改進法案的修正案）以51票贊成、50票反對獲得通過，但參議員舒默提出的預算點名異議被主席支持，導致SA 2848的部分條文被刪除。SA 2814修正案（參議員布萊克本提出，旨在取消人工智慧支援相關條款）以99票贊成、1票反對的壓倒性票數獲得通過（Record Vote Number: 363）。SA 2790修正案（參議員甘迺迪提出，旨在提前資格驗證要求的生效日期）以<span class="interactive-text" onclick="toggleDescription(this, 'desc-voice-vote')">語音投票</span>方式獲得通過。 此外，許多其他修正案未能通過，有些以微弱劣勢被否決，有些則因違反預算規定而被主席裁定為無效。參議院行動後，參議院將修正後的法案訊息發送給眾議院。</p>
+        <div id="desc-voice-vote" class="description-box">
+            <p>語音投票是美國國會的一項投票方式，運作時由主席尋問支持或反對，支持者與反對者互相喊「支持」或「反對」，並由主席依據聲量大小裁決誰勝出。此一表決方式雖快速，卻也因為不記名的特性難以咎責且未必能在膠著情況下明確誰勝誰敗。</p>
+        </div>
+
+        <h3>2025/07/03、差異調和（Resolving Differences by House Agreeing to Senate Amendment）</h3>
+        <p>2025年7月3日凌晨3:29，Jodey Arrington根據<span class="interactive-text" onclick="toggleDescription(this, 'desc-hres566')">《H. Res. 566》</span>的規定，提出了同意參議院對H.R. 1的修正案的動議。眾議院就同意參議院修正案的動議進行了一小時的辯論。根據議事規則，辯論提前結束。眾議院最終以218票贊成、214票反對的記名投票結果，同意了參議院的修正版本，成功解決了兩院版本之間的差異。重新考慮的動議也未經異議地被擱置。</p>
+        <div id="desc-hres566" class="description-box">
+            <p>該決議類似於之前同樣是由他提出的（H. Res. 436）。H.Res.566核心目的在為眾議院處理參議院對H.R.1號法案提出的修正案設定特殊的程序規則。主要手段包含限制討論、限制重返委員會等限制少數黨阻礙手段的規定。</p>
+        </div>
+
+        <h3>2025/07/04、總統簽署成法 （Became Law）</h3>
+        <p>在前一天晚些時候，該法案通過並被呈交給總統川普。於是在隔天7/4，也就是國慶日當天，川普正式在白宮簽署了大而美法案，使之成為正式法律，編號：Public Law 119-21</p>
+<img src="https://lab-storytelling-storage.twreporter.org/images/4b0efa3c-2c78-49e7-8bf0-62c461702130.jpg" alt="圖片描述" style="max-width: 100%; height: auto;" />
+        <div class="divider"></div>
+        
+        <h1>大而美法案目標</h1>
+        <p>該法案可謂是川普總統第二任期議程的核心。雖然有著廣大的爭議，但力挺法案的人宣稱其將為美國人民帶來「更多的醫療保健選擇、更低的成本和更大的靈活性」 。同時強調法案旨在保護和加強醫療補助計畫（Medicaid）以服務弱勢群體，同時消除浪費、欺詐和濫用。除此之外，該法案還著重關注收支問題，希望能夠減少不低於兩兆美元的支出。不過，該法案仍有新增加的支出，用以專門保護美國國土安全和維護主權，這些支出將通過增加國外人士簽證費用來支應。</p>
+        <p>針對第一點，該法案的既定目標，特別是白宮的聲明，例如「保護和加強醫療補助計畫」、「不削減醫療保險」和「降低成本」，與獨立預測之間存在顯著差異。例如，國會預算辦公室（CBO）估計，該法案將導致1690萬人失去醫療保險覆蓋。雖然白宮的「事實與謬誤」文章明確表示「不削減醫療補助計畫」，並稱其「保護和加強」該計畫 。然而，ASTHO的摘要引用了CBO的估計，即「到2034年，該法案的醫療條款將導致1180萬人失去醫療保險覆蓋」，如果包括其他政策變化，總數將達到「1690萬人」。</p>
+        <p>至於爭議更大的稅務減免條款，則會廣泛牽涉到個人稅率、加班費、貸款費、州稅與地方稅、赤字減少以及全新的<span class="interactive-text" onclick="toggleDescription(this, 'desc-trump-account')">川普帳戶</span>。</p>
+        <div id="desc-trump-account" class="description-box">
+            <p>川普帳戶（Trump Accounts）將為美國每個符合條件（2025~2028年生）的新生兒贈送一份1000美元的長期儲蓄啟動資金。而該基金可以在小孩18歲時提領，此外，如同既有的「529計畫」，新生兒父母也可以往基金內貢獻至多4000美金，雖然對其靈活性與徵稅方面的討論仍在持續。</p>
+        </div>
+        <p>該法案新增了1500億美元用於邊境執法和驅逐出境。該法案資助僱用10,000名新的移民和海關執法局(ICE，也就是六月底在洛杉磯引起移民抗議的機關)官員；並資助阻止防範芬太尼流入的計畫；此外，它還包括繼續建設與完善邊境圍牆的計畫。相關條文的通過，按照白宮的說法為「確保國土安全」和「維護美國主權」，但具體而言是否能夠實現目標，仍有待後續發展驗證。</p>
+        <p>同一時間，法案還系統性地取消或限制了各類非公民（包括合法在美的人道主義入境者、假釋者和持有臨時保護身份者）獲得主要聯邦安全網計畫（如醫療補助計畫、SNAP、ACA市場和醫療保險計畫）的資格。不僅僅針對「非法外國人」，還包括合法在美的人道主義入境者。後果除了影響已經在國內的移民外，更可能導致州政府被迫在眉有中央支持的情況下獨自完成有關難民的所有處置。</p>
+        <p>川普政府於本次推出的大而美法案牽涉的範圍廣泛到往往是立法者也未能明確掌握每一條法條在討論的事情；而政府宣稱不會影響的支出卻往往受到許多團體的懷疑；川普政府雖然宣稱要減少政府開支，但同時債務上限卻也同等提高。</p>
+        <p>而且無論如何，這部法案的通過對早已深陷對立情緒的美國來說指只是火上澆油。從提案、討論、表決到影響範圍，每一個程序與步驟都有許多批評的聲音。</p>
+    </main>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const topicElement = document.getElementById('highlighted-topic');
-            const descriptionBox = document.getElementById('description-box');
-
-            topicElement.addEventListener('click', function() {
-                descriptionBox.classList.toggle('active');
-            });
-        });
+        function toggleDescription(element, descriptionId) {
+            const descriptionBox = document.getElementById(descriptionId);
+            const paragraph = element.closest('p');
+            
+            // 檢查描述框是否已經存在於點擊元素的下方
+            const nextElement = element.nextElementSibling;
+            const isDescriptionBox = nextElement && nextElement.classList.contains('description-box');
+            
+            if (descriptionBox.style.display === 'block') {
+                // 如果已經顯示，就隱藏它
+                descriptionBox.style.display = 'none';
+            } else {
+                // 如果隱藏，就顯示它
+                // 先將所有描述框隱藏，確保只顯示一個
+                const allDescriptions = document.querySelectorAll('.description-box');
+                allDescriptions.forEach(desc => {
+                    desc.style.display = 'none';
+                });
+                
+                // 找到父級段落的寬度，設定給描述框
+                const paragraphWidth = paragraph.getBoundingClientRect().width;
+                descriptionBox.style.maxWidth = `${paragraphWidth}px`;
+                
+                // 將描述框插入到主題文字的父元素（通常是 <p>）之後
+                paragraph.parentNode.insertBefore(descriptionBox, paragraph.nextSibling);
+                descriptionBox.style.display = 'block';
+            }
+        }
     </script>
-
 </body>
 </html>
+<a href="https://gemini.google.com/share/5036f5be75a1" target="_blank" rel="noopener noreferrer" style="color:#C7955A; text-decoration:none;">
+  法案影響可視化網頁
+</a>
