@@ -69,7 +69,7 @@
 <p>2024年，台灣與美國都各自進行總統大選，而選後的結果也帶來震盪至今的餘波。在台灣，獲得執政權的民進黨並未能在立法院成為最大黨或單獨過半，必須與在野的國、眾兩黨合作以推進法案，從而，三黨之間的分歧與攻訐都因為沒有人獨大而加劇；在美國，川普贏得選舉，共和黨也贏下參眾兩院，川普以及他的盟友得以從行政與立法兩頭共頭推進他們的政治議程。</p>
 <p>到截稿的目前，川普政府已開啟第二波的關稅談判，寄望以關稅作為達成自己目標——無論政治或經濟層面——的武器；同時，他們也著手刪減國會支出，嘗試達成選前減少開支的承諾。</p>
 <figure style="max-width: 100%; margin: 1rem 0; text-align: center; color: #8F9090; font-size: clamp(0.9rem, 1.5vw, 1rem);">
-<img src="https://drive.google.com/file/d/19PKMp2lmHmDyTXATsA1ObKh-FL6VEOhh/view?usp=drivesdk" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
+<img src="https://i.postimg.cc/Gt88tDRb/temp-Imageah-Ny-H4.avif" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
   <figcaption> 2025年4月2日，總統川普在玫瑰園公布解放日關稅並簽署第14257號行政命令。</figcaption>
 </figure>
 <p>台灣與美國在政治制度上固然有許多類似的地方，可卻同時也有相當多的差異。雖然關注美國的事物不能直接為我們帶來幫助，但是透過比較他國經驗，也是能夠對解決國內問題帶來些許參考。必須要理解的是，行政權與立法權本質上是相互獨立卻互相依賴的責任，像是川普在本次推動的全球徵稅的法源依據便是將近50年前通過的《1977 年國際緊急經濟權力法》（International Emergency Economic Powers Act）。該法案授權總統在國家面對國外威脅時得採取相對應手段，且賦予總統更多的主動權。所以理解一國權力運作體系萬不可只從行政或立法層面進入，而是需要建構出多元的視角。</p>
