@@ -236,7 +236,7 @@
         <h3>2025/05/20、提案（Introduced）</h3>
         <figure style="max-width: 100%; margin: 1rem 0; text-align: center; color: #8F9090; font-size: clamp(0.9rem, 1.5vw, 1rem);">
 <img src="https://lab-storytelling-storage.twreporter.org/images/2cfaae39-65fc-4677-adc3-b89961c3e4bb.webp" alt="圖片描述" style="max-width: 100%; height: auto; display: block; margin: 1rem 0;" />
-  <figcaption> 2025年5月22日，眾議院議長強森在國會大廈通宵會議後談論總統川普的減稅大而美法案。</figcaption>
+  <figcaption> 2025年5月20日，被譽為最保守的共和黨眾議員Randy Weber拿著法案的部分。</figcaption>
 </figure>
         <p>這項法案（H.R. 1 One Big Beautiful Bill Act）由德州眾議員 Jodey C. Arrington在眾議院首次提出，並送交<span class="interactive-text" onclick="toggleDescription(this, 'desc-budget-committee')">預算委員會</span>審查。該法案被列入聯合議事曆（Union Calendar），編號為第78號。眾議院預算委員會還提交了一份原始文件，即《眾議院報告119-106》（H. Rept. 119-106），由Jodey Arrington提出。</p>
         <figure style="max-width: 100%; margin: 1rem 0; text-align: center; color: #8F9090; font-size: clamp(0.9rem, 1.5vw, 1rem);">
