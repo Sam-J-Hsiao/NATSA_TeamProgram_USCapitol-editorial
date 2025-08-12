@@ -327,3 +327,163 @@
 <a href="https://gemini.google.com/share/5036f5be75a1" target="_blank" rel="noopener noreferrer" style="color:#C7955A; text-decoration:none;">
   法案影響可視化網頁
 </a>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互動儀表板：解析《一項宏偉美麗法案》的影響</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Warm Neutrals -->
+    <!-- Application Structure Plan: A single-page, thematic dashboard structure. The top navigation allows users to jump to one of five key impact areas (Economy, Healthcare, Social Welfare, Immigration, Defense). The page starts with a high-level overview of the most impactful numbers. Each section then uses a mix of interactive cards, charts, and comparison tables to break down complex information. This non-linear, dashboard approach was chosen over a simple report-like structure to empower users to explore data based on their interests, facilitating faster comprehension and comparison across different policy areas. -->
+    <!-- Visualization & Content Choices: 
+        - Report Info: Overall impact stats -> Goal: Inform/Impact -> Viz: Large "Key Figure" cards -> Interaction: Hover for context -> Justification: Immediately grabs user attention with the most significant data points.
+        - Report Info: Healthcare coverage loss breakdown -> Goal: Show Proportions -> Viz: Doughnut Chart (Chart.js) -> Interaction: Hover for details -> Justification: Clearly visualizes the components of the total coverage loss, more effective than text alone.
+        - Report Info: Spending allocations (Defense/Border) -> Goal: Compare -> Viz: Bar Chart (Chart.js) -> Interaction: Hover for values -> Justification: Provides a clear, direct comparison of major new spending categories.
+        - Report Info: Medicaid vs. SNAP changes -> Goal: Organize/Compare -> Viz: Structured HTML/CSS comparison table -> Interaction: Clickable tabs/buttons -> Justification: Allows for a direct, side-by-side comparison of complex rule changes, which is clearer than separate paragraphs.
+        - Report Info: Specific policy details (e.g., tax changes) -> Goal: Detail on Demand -> Viz: Click-to-expand cards -> Interaction: Click to show/hide -> Justification: Keeps the initial view clean while allowing users to drill down into specifics as needed.
+        - Library/Method: Chart.js for all charts, rendered on canvas. All other diagrams and layouts use structured HTML with Tailwind CSS.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #fdfbf7;
+            color: #4a4a4a;
+        }
+        .nav-link {
+            transition: all 0.3s ease;
+        }
+        .nav-link.active, .nav-link:hover {
+            color: #c8a07d;
+            border-bottom-color: #c8a07d;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .details-content {
+            display: none;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <h1 class="text-xl md:text-2xl font-bold text-gray-800">解析《一項宏偉美麗法案》</h1>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#overview" class="nav-link text-gray-600 border-b-2 border-transparent pb-1">總覽</a>
+                    <a href="#economy" class="nav-link text-gray-600 border-b-2 border-transparent pb-1">經濟稅務</a>
+                    <a href="#healthcare" class="nav-link text-gray-600 border-b-2 border-transparent pb-1">醫療保健</a>
+                    <a href="#welfare" class="nav-link text-gray-600 border-b-2 border-transparent pb-1">社會福利</a>
+                    <a href="#immigration" class="nav-link text-gray-600 border-b-2 border-transparent pb-1">移民安全</a>
+                    <a href="#defense" class="nav-link text-gray-600 border-b-2 border-transparent pb-1">國防安全</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+
+        <section id="overview" class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">法案核心影響總覽</h2>
+            <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-10">
+                《一項宏偉美麗法案》(OBBBA) 是一項影響深遠的立法，旨在全面重塑美國的經濟、醫療、社會福利及國防政策。本儀表板將解析其在五大領域的關鍵變革與預期影響。
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                <div class="card p-6 flex flex-col items-center justify-center">
+                    <span class="text-5xl font-bold text-red-600">1,690萬</span>
+                    <p class="mt-2 text-lg font-semibold text-gray-700">預估醫療保險覆蓋損失人數</p>
+                    <p class="text-sm text-gray-500 mt-1">(至2034年, CBO預估)</p>
+                </div>
+                <div class="card p-6 flex flex-col items-center justify-center">
+                    <span class="text-5xl font-bold text-blue-600">$3,000億</span>
+                    <p class="mt-2 text-lg font-semibold text-gray-700">新增國防與邊境安全支出</p>
+                    <p class="text-sm text-gray-500 mt-1">(各$1500億)</p>
+                </div>
+                <div class="card p-6 flex flex-col items-center justify-center">
+                    <span class="text-5xl font-bold text-green-600">-$2兆</span>
+                    <p class="mt-2 text-lg font-semibold text-gray-700">官方聲稱赤字削減目標</p>
+                    <p class="text-sm text-gray-500 mt-1">(依賴經濟增長預測)</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-12 border-gray-200">
+
+        <section id="economy" class="mb-16 scroll-mt-20">
+            <h2 class="text-3xl font-bold mb-2 text-center text-gray-900">領域一：經濟與稅務政策</h2>
+            <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10">此領域的核心是永久延長2017年的減稅措施，並引入針對性的新稅收減免，旨在刺激經濟。然而，這些措施的長期財政影響，特別是對國家赤字的影響，是辯論的焦點。</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div class="space-y-4">
+                    <div class="card" data-details="economy1">
+                        <div class="p-4 cursor-pointer flex justify-between items-center">
+                            <h3 class="text-lg font-semibold">2017年減稅措施永久化</h3>
+                            <span class="text-xl font-bold text-gray-400 transform transition-transform duration-300">+</span>
+                        </div>
+                        <div class="details-content px-4 pb-4 border-t border-gray-200">
+                            <p class="text-gray-600 mt-2">法案永久延長了原定於2025年底到期的個人稅率，並永久化了小企業扣除額。支持者認為這將刺激經濟增長，但此舉也將顯著影響長期的聯邦收入，可能與赤字削減目標相悖。</p>
+                        </div>
+                    </div>
+                    <div class="card" data-details="economy2">
+                        <div class="p-4 cursor-pointer flex justify-between items-center">
+                            <h3 class="text-lg font-semibold">新的稅收減免與帳戶</h3>
+                            <span class="text-xl font-bold text-gray-400 transform transition-transform duration-300">+</span>
+                        </div>
+                        <div class="details-content px-4 pb-4 border-t border-gray-200">
+                            <p class="text-gray-600 mt-2">法案為小費、加班費和汽車貸款提供稅收減免，並創建了臨時性的「川普帳戶」，允許父母為子女設立稅收遞延儲蓄。這些措施旨在吸引特定選民群體，但其臨時性引發了對其長期效果的質疑。</p>
+                        </div>
+                    </div>
+                    <div class="card" data-details="economy3">
+                        <div class="p-4 cursor-pointer flex justify-between items-center">
+                            <h3 class="text-lg font-semibold">州與地方稅(SALT)扣除上限調整</h3>
+                            <span class="text-xl font-bold text-gray-400 transform transition-transform duration-300">+</span>
+                        </div>
+                        <div class="details-content px-4 pb-4 border-t border-gray-200">
+                            <p class="text-gray-600 mt-2">將收入低於50萬美元納稅人的SALT扣除上限臨時提高至4萬美元（五年後恢復），預估成本高達1420億美元。這是一項為了換取高稅州共和黨議員支持而達成的政治妥協。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-4">
+                    <h3 class="text-xl font-semibold text-center mb-4">關鍵政策財政影響</h3>
+                     <div class="chart-container">
+                        <canvas id="taxPolicyChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-12 border-gray-200">
+
+        <section id="healthcare" class="mb-16 scroll-mt-20">
+            <h2 class="text-3xl font-bold mb-2 text-center text-gray-900">領域二：醫療保健與公共衛生</h2>
+            <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10">此領域的影響極具爭議。儘管官方聲稱「加強」醫療補助計畫，但CBO預測將有近1700萬人
